@@ -1,4 +1,4 @@
-update=Mon 25 Sep 2017 08:06:54 CEST
+update=Sun 01 Oct 2017 00:57:44 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName29=valves
 LibName30=switches
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
