@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 142.164999 88.316999 195.655001 119.455001)
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 142)
     (zones 0)
     (modules 15)
@@ -985,6 +985,9 @@
       (xy -1.51384 -2.24536)) (layer B.Cu) (width 0.00254))
   )
 
+  (gr_text "github.com/\nSukkoPera/\nOpenC64MegaDrivePadAdapter" (at 191.516 104.14 90) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (dimension 53.34 (width 0.3) (layer F.Fab)
     (gr_text "53.340 mm" (at 168.91 128.35) (layer F.Fab)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
