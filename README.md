@@ -5,7 +5,7 @@ OpenC64MegaDrivePadAdapter is an Open Hardware adapter that allows the safe conn
 ![Board](https://github.com/SukkoPera/OpenC64MegaDrivePadAdapter/raw/master/doc/render-top.png)
 
 ### Summary
-Despite being compatible at the physical level (i.e.: they use the same DB-9 connectors), Sega Mega Drive controllers are slightly different from the *Atari-style joysticks* (which the C64 uses) at the electrical level. These differences usually manifest themselves in the fact that certain keyboard keys are not responsive when a Sega Mega Drive pad is connected to a C64 computer, but they may also harm the CIA chip.
+Despite being compatible at the physical level (i.e.: they use the same DB-9 connectors), Sega Mega Drive controllers are slightly different from the *Atari-style joysticks* (which the C64 uses) at the electrical level. These differences usually manifest themselves in the fact that certain keyboard keys are not responsive when a Sega Mega Drive pad is connected to a C64 computer, but the CIA chip may also get harmed as a result.
 
 To make a long story short, Sega Mega Drive controllers keep the button lines at a logical high level when not pressed, while the C64 expects them to be left floating.
 
