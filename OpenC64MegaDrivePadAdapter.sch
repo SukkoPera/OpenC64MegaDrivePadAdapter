@@ -292,17 +292,11 @@ Wire Wire Line
 Wire Wire Line
 	4450 4450 4700 4450
 Wire Wire Line
-	5000 4450 5350 4450
-Wire Wire Line
-	5350 4450 6300 4450
-Wire Wire Line
-	6300 4450 6550 4450
+	5000 4450 6550 4450
 Wire Wire Line
 	6650 4450 7700 4450
 Wire Wire Line
-	5200 4350 5250 4350
-Wire Wire Line
-	5250 4350 6200 4350
+	5200 4350 6200 4350
 Wire Wire Line
 	5000 4250 7700 4250
 Wire Wire Line
@@ -310,28 +304,20 @@ Wire Wire Line
 Wire Wire Line
 	5000 3850 7700 3850
 Wire Wire Line
-	4450 4150 7150 4150
-Wire Wire Line
-	7150 4150 7700 4150
+	4450 4150 7700 4150
 Wire Wire Line
 	7700 3650 7150 3650
 Wire Wire Line
 	7150 3650 7150 4150
 Wire Wire Line
-	4450 3950 5000 3950
-Wire Wire Line
-	5000 3950 7700 3950
+	4450 3950 7700 3950
 Wire Wire Line
 	4450 3750 4750 3750
 Connection ~ 7150 4150
 Wire Wire Line
 	6050 3750 7700 3750
 Wire Wire Line
-	6050 3300 6050 3400
-Wire Wire Line
-	6050 3400 6050 3500
-Wire Wire Line
-	6050 3500 6050 3750
+	6050 3300 6050 3750
 Wire Wire Line
 	6050 3500 5950 3500
 Wire Wire Line
@@ -355,9 +341,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3300 5450 3300
 Wire Wire Line
-	5000 2400 5000 2550
-Wire Wire Line
-	5000 2550 5000 2650
+	5000 2400 5000 2650
 Wire Wire Line
 	6400 3400 6200 3400
 Wire Wire Line
@@ -368,11 +352,7 @@ Wire Wire Line
 	6300 3500 6300 4450
 Connection ~ 6300 4450
 Wire Wire Line
-	7000 3300 7000 3400
-Wire Wire Line
-	7000 3400 7000 3500
-Wire Wire Line
-	7000 3500 7000 4350
+	7000 3300 7000 4350
 Wire Wire Line
 	7000 4350 7700 4350
 Wire Wire Line
@@ -393,13 +373,9 @@ Connection ~ 5000 3950
 Wire Wire Line
 	5000 1950 5000 2100
 Wire Wire Line
-	5300 2850 5600 2850
+	5300 2850 5700 2850
 Wire Wire Line
-	5600 2850 5700 2850
-Wire Wire Line
-	6000 2850 6100 2850
-Wire Wire Line
-	6100 2850 6200 2850
+	6000 2850 6200 2850
 Wire Wire Line
 	6200 2850 6200 3300
 Wire Wire Line
@@ -412,9 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2950 4750 2550
 Wire Wire Line
-	4750 2550 5000 2550
-Wire Wire Line
-	5000 2550 5150 2550
+	4750 2550 5150 2550
 Wire Wire Line
 	6100 3050 5350 3050
 Wire Wire Line
