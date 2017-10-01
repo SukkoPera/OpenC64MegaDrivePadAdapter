@@ -36,19 +36,19 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Open Sega Mega Drive Joypad to C64 Adapter"
-Date "2017-09-30"
+Date "2017-10-01"
 Rev "1"
-Comp "SukkoPera"
+Comp "SukkoPera (Thanks Etemenanki)"
 Comment1 "https://www.scribd.com/document/8945979/Commodore-World-Issue-05"
 Comment2 "Based on an article published on Computer World #5"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L D D4
+L D D5
 U 1 1 59C7F089
 P 4850 4450
-F 0 "D4" H 4850 4550 50  0000 C CNN
+F 0 "D5" H 4850 4550 50  0000 C CNN
 F 1 "1N4148" H 4850 4350 50  0001 C CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4450 50  0001 C CNN
 F 3 "" H 4850 4450 50  0001 C CNN
@@ -89,10 +89,10 @@ F 3 "" H 4850 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D D5
+L D D4
 U 1 1 59C7F1D0
 P 5050 4350
-F 0 "D5" H 5050 4450 50  0000 C CNN
+F 0 "D4" H 5050 4450 50  0000 C CNN
 F 1 "1N4148" H 5050 4250 50  0001 C CNN
 F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 4350 50  0001 C CNN
 F 3 "" H 5050 4350 50  0001 C CNN
@@ -237,7 +237,7 @@ L R R2
 U 1 1 59D00735
 P 5000 2250
 F 0 "R2" V 5080 2250 50  0000 C CNN
-F 1 "1k" V 5000 2250 50  0000 C CNN
+F 1 "2.2k" V 5000 2250 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4930 2250 50  0001 C CNN
 F 3 "" H 5000 2250 50  0001 C CNN
 	1    5000 2250
@@ -388,11 +388,11 @@ Wire Wire Line
 Wire Wire Line
 	4750 2950 4750 2550
 Wire Wire Line
-	4750 2550 5000 2550
+	4750 2550 5400 2550
 Wire Wire Line
-	5350 3050 5800 3050
+	5800 3050 5350 3050
 Wire Wire Line
-	5800 3050 5800 2850
+	5800 2550 5800 3050
 Connection ~ 5800 2850
 Wire Wire Line
 	6550 4450 6550 4550
@@ -410,4 +410,17 @@ F 3 "" H 10900 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 10900 6100
+$Comp
+L R R3
+U 1 1 59D10D2A
+P 5550 2550
+F 0 "R3" V 5630 2550 50  0000 C CNN
+F 1 "47k" V 5550 2550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5480 2550 50  0001 C CNN
+F 3 "" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2550 5800 2550
 $EndSCHEMATC
