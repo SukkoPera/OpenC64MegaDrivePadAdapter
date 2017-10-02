@@ -1,6 +1,6 @@
 # OpenC64MegaDrivePadAdapter
 
-OpenC64MegaDrivePadAdapter is an Open Hardware adapter that allows the safe connection of a Sega Mega Drive controller to a Commodore 64 computer.
+OpenC64MegaDrivePadAdapter is an Open Hardware adapter that allows the safe connection of a Sega Mega Drive (known as *Genesis* in the US) controller to a Commodore 64 computer.
 
 ![Board](https://github.com/SukkoPera/OpenC64MegaDrivePadAdapter/raw/master/doc/render-top.png)
 
