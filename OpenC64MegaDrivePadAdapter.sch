@@ -36,12 +36,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Open Sega Mega Drive Joypad to C64 Adapter"
-Date "2017-10-01"
-Rev "1"
+Date "2017-11-04"
+Rev "2"
 Comp "SukkoPera (Thanks Etemenanki)"
-Comment1 "https://www.scribd.com/document/8945979/Commodore-World-Issue-05"
-Comment2 "Based on an article published on Computer World #5"
-Comment3 ""
+Comment1 "http://wiki.icomp.de/wiki/DB9-Joystick"
+Comment2 "https://www.scribd.com/document/8945979/Commodore-World-Issue-05"
+Comment3 "Based on an article published on Computer World #5"
 Comment4 ""
 $EndDescr
 $Comp
@@ -109,7 +109,6 @@ Text Label 4450 4250 0    60   ~ 0
 down
 Text Label 4450 3750 0    60   ~ 0
 pot_x
-NoConn ~ 4750 3750
 Text Label 4450 4150 0    60   ~ 0
 +5v
 Text Label 4450 3950 0    60   ~ 0
@@ -132,7 +131,7 @@ L DB9_MALE J20
 U 1 1 59C7F669
 P 8000 4050
 F 0 "J20" H 8000 3500 50  0000 C CNN
-F 1 "DB9_M_TO_JOYPAD" H 8000 4650 50  0000 C CNN
+F 1 "DB9_M_TO_PAD" H 8000 4650 50  0000 C CNN
 F 2 "w_conn_d-sub:DB_9M" H 8000 4050 50  0001 C CNN
 F 3 "" H 8000 4050 50  0001 C CNN
 	1    8000 4050
@@ -165,12 +164,12 @@ $EndComp
 $Comp
 L +5V #PWR01
 U 1 1 59C8A01C
-P 5000 1950
-F 0 "#PWR01" H 5000 1800 50  0001 C CNN
-F 1 "+5V" H 5000 2090 50  0000 C CNN
-F 2 "" H 5000 1950 50  0001 C CNN
-F 3 "" H 5000 1950 50  0001 C CNN
-	1    5000 1950
+P 5000 2100
+F 0 "#PWR01" H 5000 1950 50  0001 C CNN
+F 1 "+5V" H 5000 2240 50  0000 C CNN
+F 2 "" H 5000 2100 50  0001 C CNN
+F 3 "" H 5000 2100 50  0001 C CNN
+	1    5000 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -235,12 +234,12 @@ $EndComp
 $Comp
 L R R2
 U 1 1 59D00735
-P 5000 2250
-F 0 "R2" V 5080 2250 50  0000 C CNN
-F 1 "2.2k" V 5000 2250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4930 2250 50  0001 C CNN
-F 3 "" H 5000 2250 50  0001 C CNN
-	1    5000 2250
+P 5000 2300
+F 0 "R2" V 5080 2300 50  0000 C CNN
+F 1 "2.2k" V 5000 2300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4930 2300 50  0001 C CNN
+F 3 "" H 5000 2300 50  0001 C CNN
+	1    5000 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -257,16 +256,14 @@ $EndComp
 $Comp
 L R R1
 U 1 1 59D00AFA
-P 4750 3100
-F 0 "R1" V 4830 3100 50  0000 C CNN
-F 1 "100" V 4750 3100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4680 3100 50  0001 C CNN
-F 3 "" H 4750 3100 50  0001 C CNN
-	1    4750 3100
+P 4750 3350
+F 0 "R1" V 4830 3350 50  0000 C CNN
+F 1 "100" V 4750 3350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4680 3350 50  0001 C CNN
+F 3 "" H 4750 3350 50  0001 C CNN
+	1    4750 3350
 	1    0    0    -1  
 $EndComp
-Text Label 4450 3650 0    60   ~ 0
-pot_y
 Text Label 7250 4450 0    60   ~ 0
 md_up
 Text Label 7250 4250 0    60   ~ 0
@@ -281,6 +278,29 @@ Text Label 7250 4150 0    60   ~ 0
 md_sel
 Text Label 7250 3750 0    60   ~ 0
 md_c/~st
+$Comp
+L CONN_01X01 J99
+U 1 1 59D02706
+P 10900 6300
+F 0 "J99" H 10900 6400 50  0000 C CNN
+F 1 "OSHW_LOGO" V 11000 6300 50  0000 C CNN
+F 2 "w_logo:Logo_copper_OSHW_6x6mm" H 10900 6300 50  0001 C CNN
+F 3 "" H 10900 6300 50  0001 C CNN
+	1    10900 6300
+	0    1    1    0   
+$EndComp
+NoConn ~ 10900 6100
+$Comp
+L R R3
+U 1 1 59D10D2A
+P 5300 2550
+F 0 "R3" V 5380 2550 50  0000 C CNN
+F 1 "100k" V 5300 2550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5230 2550 50  0001 C CNN
+F 3 "" H 5300 2550 50  0001 C CNN
+	1    5300 2550
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	4450 3850 4700 3850
 Wire Wire Line
@@ -341,7 +361,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 3300 5450 3300
 Wire Wire Line
-	5000 2400 5000 2650
+	5000 2450 5000 2650
 Wire Wire Line
 	6400 3400 6200 3400
 Wire Wire Line
@@ -371,7 +391,7 @@ Wire Wire Line
 	5000 3050 5000 3950
 Connection ~ 5000 3950
 Wire Wire Line
-	5000 1950 5000 2100
+	5000 2100 5000 2150
 Wire Wire Line
 	5300 2850 5700 2850
 Wire Wire Line
@@ -382,48 +402,55 @@ Wire Wire Line
 	6200 3300 6400 3300
 Connection ~ 5000 2550
 Wire Wire Line
-	4450 3650 4750 3650
-Wire Wire Line
-	4750 3650 4750 3250
-Wire Wire Line
-	4750 2950 4750 2550
-Wire Wire Line
 	4750 2550 5150 2550
 Wire Wire Line
 	6100 3050 5350 3050
 Wire Wire Line
-	6100 2850 6100 3050
+	6100 1800 6100 3050
 Connection ~ 6100 2850
 Wire Wire Line
 	6550 4450 6550 4550
 Wire Wire Line
 	6650 4450 6650 4550
-$Comp
-L CONN_01X01 J99
-U 1 1 59D02706
-P 10900 6300
-F 0 "J99" H 10900 6400 50  0000 C CNN
-F 1 "OSHW_LOGO" V 11000 6300 50  0000 C CNN
-F 2 "w_logo:Logo_copper_OSHW_6x6mm" H 10900 6300 50  0001 C CNN
-F 3 "" H 10900 6300 50  0001 C CNN
-	1    10900 6300
-	0    1    1    0   
-$EndComp
-NoConn ~ 10900 6100
-$Comp
-L R R3
-U 1 1 59D10D2A
-P 5300 2550
-F 0 "R3" V 5380 2550 50  0000 C CNN
-F 1 "100k" V 5300 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5230 2550 50  0001 C CNN
-F 3 "" H 5300 2550 50  0001 C CNN
-	1    5300 2550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5450 2550 5600 2550
 Wire Wire Line
 	5600 2550 5600 2850
 Connection ~ 5600 2850
+Text Label 4450 3650 0    60   ~ 0
+pot_y
+Wire Wire Line
+	4450 3650 4700 3650
+NoConn ~ 4700 3650
+Wire Wire Line
+	4750 3750 4750 3500
+$Comp
+L CONN_01X03 J4
+U 1 1 59FDDBE6
+P 4300 2900
+F 0 "J4" H 4300 3100 50  0000 C CNN
+F 1 "CONN_C64_AMI" V 4400 2900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 2900 4750 2900
+Wire Wire Line
+	4750 2900 4750 3200
+Wire Wire Line
+	4500 2800 4750 2800
+Wire Wire Line
+	4750 2800 4750 2550
+Wire Wire Line
+	6100 1800 4000 1800
+Wire Wire Line
+	4000 1800 4000 3200
+Wire Wire Line
+	4000 3200 4600 3200
+Wire Wire Line
+	4600 3200 4600 3000
+Wire Wire Line
+	4600 3000 4500 3000
 $EndSCHEMATC
