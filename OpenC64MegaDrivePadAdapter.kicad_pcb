@@ -254,9 +254,9 @@
     (pad 3 thru_hole oval (at 0 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 20 "Net-(J4-Pad3)"))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03_Pitch2.54mm.wrl
-      (at (xyz 0 -0.1 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -288,9 +288,9 @@
     (pad 2 thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 "Net-(D5-Pad1)"))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -367,12 +367,7 @@
     (pad 6 thru_hole oval (at 4.15544 -5.842 270) (size 1.50114 1.99898) (drill 0.89916 (offset 0 0.24892)) (layers *.Cu *.Mask)
       (net 7 /fire))
     (pad "" thru_hole circle (at -12.49426 -7.112 270) (size 5.00126 5.00126) (drill 3.2004) (layers *.Cu *.Mask))
-    (model walter/conn_d-sub/db_9f.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model /home/sukko/Documents/kicad/libs-walter/modules/packages3d/walter/conn_d-sub/db_9f.wrl
+    (model ${P3D_WALTER}/conn_d-sub/db_9f.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -453,12 +448,7 @@
     (pad 9 thru_hole oval (at 4.15544 -5.842 90) (size 1.50114 1.99898) (drill 0.89916 (offset 0 0.24892)) (layers *.Cu *.Mask)
       (net 16 /md_c/~st))
     (pad "" thru_hole circle (at -12.49426 -7.112 90) (size 5.00126 5.00126) (drill 3.2004) (layers *.Cu *.Mask))
-    (model ${P3D_WALTER}/walter/conn_d-sub/db_9m.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model /home/sukko/Documents/kicad/libs-walter/modules/packages3d/walter/conn_d-sub/db_9m.wrl
+    (model ${P3D_WALTER}/conn_d-sub/db_9m.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -498,7 +488,7 @@
       (net 12 /md_right))
     (pad 2 thru_hole oval (at 7.62 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 /right))
-    (model Diodes_ThroughHole.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+    (model Diodes_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -538,7 +528,7 @@
       (net 13 /md_left))
     (pad 2 thru_hole oval (at 7.62 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 /left))
-    (model Diodes_ThroughHole.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+    (model Diodes_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -578,7 +568,7 @@
       (net 14 /md_down))
     (pad 2 thru_hole oval (at 7.62 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 /down))
-    (model Diodes_ThroughHole.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+    (model Diodes_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -618,7 +608,7 @@
       (net 6 "Net-(D5-Pad1)"))
     (pad 2 thru_hole oval (at 7.62 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 /up))
-    (model Diodes_ThroughHole.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+    (model Diodes_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -658,7 +648,7 @@
       (net 4 "Net-(D4-Pad1)"))
     (pad 2 thru_hole oval (at 7.62 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 /fire))
-    (model Diodes_ThroughHole.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
+    (model Diodes_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -887,9 +877,9 @@
     (pad 6 thru_hole oval (at 2.54 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 "Net-(J2-Pad6)"))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.54mm.wrl
-      (at (xyz 0.05 -0.1 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -929,9 +919,9 @@
     (pad 6 thru_hole oval (at 2.54 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 "Net-(J2-Pad6)"))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03_Pitch2.54mm.wrl
-      (at (xyz 0.05 -0.1 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
