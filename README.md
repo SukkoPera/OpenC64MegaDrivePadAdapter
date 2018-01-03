@@ -9,7 +9,7 @@ Despite being compatible at the physical level (i.e.: they use the same DB-9 con
 
 Since I think that the Sega Mega Drive controller is one of the best joypads which ever saw the light, I developed this simple adapter board, which is supposed to sit inbetween the computer and the controller. You should be able to keep it plugged into the computer and then connect the controller to it, but you can also use a joystick extension cord (widely available), if that makes it easier.
 
-This adapter also allows using Button C as the second fire button, for those games that support two buttons.
+Button B will work as the normal fire button, but this adapter also allows using Button C as the second fire button, for those games that support two buttons.
 
 While this all works out of the box on Amiga computers, this adapter also allows to customize the button mapping to a certain degree: for instance, replacing UP with C might make some games more comfortable to play. This might be useful on the Amiga as well, so the adapter also supports an Amiga mode.
 
@@ -30,7 +30,7 @@ Configuration is done through the jumpers on the board, and should be pretty sel
 1. **ALWAYS TURN YOUR COMPUTER OFF BEFORE MOVING THE CONFIGURATION JUMPERS.**
 2. **NEVER EVER KEEP MORE THAN ONE JUMPER ON THE SAME HORIZONTAL LINE.**
 
-If you don't follow the rules, **you will probably cause permanent damage to your C64 and/or controller**, so **please be careful**, you have been warned.
+If you don't follow the rules, **you will probably cause permanent damage to your computer and/or controller**, so **please be careful**, you have been warned.
 
 The default configuration maps B to button 1, C to button 2 and UP to UP. If you play Giana Sisters, you will probably want to use the C button for jumping, so just do the following:
 1. Turn OFF your computer.
