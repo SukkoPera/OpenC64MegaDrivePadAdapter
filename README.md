@@ -38,6 +38,9 @@ The default configuration maps B to button 1, C to button 2 and UP to UP. If you
 3. Move the C column jumper to the UP row.
 4. Turn on your computer, load the game and enjoy!
 
+### Compatibility
+OpenC64MegaDrivePadAdapter should work with all Commodore 64 and Amiga computers. On the Amiga 600 it might be necessary to use an extension cable, since the adapter will not physically fit into Port 2. An extension cable might also help on some Commodore 64's which have loose ports that will not hold the adapter in place.
+
 ### License
 OpenC64MegaDrivePadAdapter is Open Hardware. If you make any modifications to the board, please contribute them back.
 
