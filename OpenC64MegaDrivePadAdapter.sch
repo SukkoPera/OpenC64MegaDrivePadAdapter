@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Open Sega Mega Drive Joypad to C64 Adapter"
-Date "2017-11-04"
-Rev "2"
+Date "2018-10-22"
+Rev "3"
 Comp "SukkoPera (Thanks Etemenanki)"
 Comment1 "http://wiki.icomp.de/wiki/DB9-Joystick"
 Comment2 "https://www.scribd.com/document/8945979/Commodore-World-Issue-05"
@@ -20,7 +20,7 @@ U 1 1 59C7F089
 P 4850 4450
 F 0 "D5" H 4850 4550 50  0000 C CNN
 F 1 "1N4148" H 4850 4350 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4450 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4450 50  0001 C CNN
 F 3 "" H 4850 4450 50  0001 C CNN
 	1    4850 4450
 	-1   0    0    1   
@@ -31,7 +31,7 @@ U 1 1 59C7F127
 P 4850 4250
 F 0 "D3" H 4850 4350 50  0000 C CNN
 F 1 "1N4148" H 4850 4150 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4250 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4250 50  0001 C CNN
 F 3 "" H 4850 4250 50  0001 C CNN
 	1    4850 4250
 	-1   0    0    1   
@@ -42,7 +42,7 @@ U 1 1 59C7F165
 P 4850 4050
 F 0 "D2" H 4850 4150 50  0000 C CNN
 F 1 "1N4148" H 4850 3950 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4050 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 4050 50  0001 C CNN
 F 3 "" H 4850 4050 50  0001 C CNN
 	1    4850 4050
 	-1   0    0    1   
@@ -53,7 +53,7 @@ U 1 1 59C7F194
 P 4850 3850
 F 0 "D1" H 4850 3950 50  0000 C CNN
 F 1 "1N4148" H 4850 3750 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 3850 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 3850 50  0001 C CNN
 F 3 "" H 4850 3850 50  0001 C CNN
 	1    4850 3850
 	-1   0    0    1   
@@ -64,7 +64,7 @@ U 1 1 59C7F1D0
 P 5050 4350
 F 0 "D4" H 5050 4450 50  0000 C CNN
 F 1 "1N4148" H 5050 4250 50  0001 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 4350 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5050 4350 50  0001 C CNN
 F 3 "" H 5050 4350 50  0001 C CNN
 	1    5050 4350
 	-1   0    0    1   
@@ -91,7 +91,7 @@ U 1 1 59C7F5F4
 P 4150 4050
 F 0 "J10" H 4150 4600 50  0000 C CNN
 F 1 "DB9_F_TO_C64" H 4150 3475 50  0000 C CNN
-F 2 "w_conn_d-sub:DB_9F" H 4150 4050 50  0001 C CNN
+F 2 "OpenC64MegaDrivePadAdapter:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4150 4050 50  0001 C CNN
 F 3 "" H 4150 4050 50  0001 C CNN
 	1    4150 4050
 	-1   0    0    1   
@@ -102,7 +102,7 @@ U 1 1 59C7F669
 P 8000 4050
 F 0 "J20" H 8000 3500 50  0000 C CNN
 F 1 "DB9_M_TO_PAD" H 8000 4650 50  0000 C CNN
-F 2 "w_conn_d-sub:DB_9M" H 8000 4050 50  0001 C CNN
+F 2 "OpenC64MegaDrivePadAdapter:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 8000 4050 50  0001 C CNN
 F 3 "" H 8000 4050 50  0001 C CNN
 	1    8000 4050
 	1    0    0    -1  
@@ -115,7 +115,7 @@ U 1 1 59C898F7
 P 5700 3400
 F 0 "J2" H 5700 3600 50  0000 C CNN
 F 1 "CONN_02X03" H 5700 3200 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 5700 2200 50  0001 C CNN
+F 2 "OpenC64MegaDrivePadAdapter:PinHeader_2x03_P2.54mm_Vertical" H 5700 2200 50  0001 C CNN
 F 3 "" H 5700 2200 50  0001 C CNN
 	1    5700 3400
 	-1   0    0    1   
@@ -126,7 +126,7 @@ U 1 1 59C89B43
 P 6600 4750
 F 0 "J1" H 6600 4900 50  0000 C CNN
 F 1 "CONN_01X02" V 6700 4750 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6600 4750 50  0001 C CNN
+F 2 "OpenC64MegaDrivePadAdapter:PinHeader_1x02_P2.54mm_Vertical" H 6600 4750 50  0001 C CNN
 F 3 "" H 6600 4750 50  0001 C CNN
 	1    6600 4750
 	0    1    1    0   
@@ -148,7 +148,7 @@ U 1 1 59C8A2E0
 P 6650 3400
 F 0 "J3" H 6650 3600 50  0000 C CNN
 F 1 "CONN_02X03" H 6650 3200 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 6650 2200 50  0001 C CNN
+F 2 "OpenC64MegaDrivePadAdapter:PinHeader_2x03_P2.54mm_Vertical" H 6650 2200 50  0001 C CNN
 F 3 "" H 6650 2200 50  0001 C CNN
 	1    6650 3400
 	-1   0    0    1   
@@ -196,43 +196,32 @@ U 1 1 59D004AA
 P 5100 2850
 F 0 "Q1" H 5000 2700 50  0000 L CNN
 F 1 "BC547" H 4950 2600 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5300 2775 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 5300 2775 50  0001 L CIN
 F 3 "" H 5100 2850 50  0001 L CNN
 	1    5100 2850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L OpenC64MegaDrivePadAdapter-rescue:R R2
+L OpenC64MegaDrivePadAdapter-rescue:R R1
 U 1 1 59D00735
 P 5000 2300
-F 0 "R2" V 5080 2300 50  0000 C CNN
+F 0 "R1" V 5080 2300 50  0000 C CNN
 F 1 "2.2k" V 5000 2300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4930 2300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4930 2300 50  0001 C CNN
 F 3 "" H 5000 2300 50  0001 C CNN
 	1    5000 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L OpenC64MegaDrivePadAdapter-rescue:R R4
+L OpenC64MegaDrivePadAdapter-rescue:R R3
 U 1 1 59D00932
 P 5850 2850
-F 0 "R4" V 5930 2850 50  0000 C CNN
+F 0 "R3" V 5930 2850 50  0000 C CNN
 F 1 "2.2k" V 5850 2850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5780 2850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5780 2850 50  0001 C CNN
 F 3 "" H 5850 2850 50  0001 C CNN
 	1    5850 2850
 	0    1    1    0   
-$EndComp
-$Comp
-L OpenC64MegaDrivePadAdapter-rescue:R R1
-U 1 1 59D00AFA
-P 4750 3350
-F 0 "R1" V 4830 3350 50  0000 C CNN
-F 1 "100" V 4750 3350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4680 3350 50  0001 C CNN
-F 3 "" H 4750 3350 50  0001 C CNN
-	1    4750 3350
-	1    0    0    -1  
 $EndComp
 Text Label 7250 4450 0    60   ~ 0
 md_up
@@ -254,19 +243,19 @@ U 1 1 59D02706
 P 10900 6300
 F 0 "J99" H 10900 6400 50  0000 C CNN
 F 1 "OSHW_LOGO" V 11000 6300 50  0000 C CNN
-F 2 "w_logo:Logo_copper_OSHW_6x6mm" H 10900 6300 50  0001 C CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_Copper" H 10900 6300 50  0001 C CNN
 F 3 "" H 10900 6300 50  0001 C CNN
 	1    10900 6300
 	0    1    1    0   
 $EndComp
 NoConn ~ 10900 6100
 $Comp
-L OpenC64MegaDrivePadAdapter-rescue:R R3
+L OpenC64MegaDrivePadAdapter-rescue:R R2
 U 1 1 59D10D2A
 P 5300 2550
-F 0 "R3" V 5380 2550 50  0000 C CNN
+F 0 "R2" V 5380 2550 50  0000 C CNN
 F 1 "100k" V 5300 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5230 2550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5230 2550 50  0001 C CNN
 F 3 "" H 5300 2550 50  0001 C CNN
 	1    5300 2550
 	0    1    1    0   
@@ -392,23 +381,19 @@ pot_y
 Wire Wire Line
 	4450 3650 4700 3650
 NoConn ~ 4700 3650
-Wire Wire Line
-	4750 3750 4750 3500
 $Comp
 L OpenC64MegaDrivePadAdapter-rescue:CONN_01X03 J4
 U 1 1 59FDDBE6
 P 4300 2900
 F 0 "J4" H 4300 3100 50  0000 C CNN
 F 1 "CONN_C64_AMI" V 4400 2900 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4300 2900 50  0001 C CNN
+F 2 "OpenC64MegaDrivePadAdapter:PinHeader_1x03_P2.54mm_Vertical" H 4300 2900 50  0001 C CNN
 F 3 "" H 4300 2900 50  0001 C CNN
 	1    4300 2900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4500 2900 4750 2900
-Wire Wire Line
-	4750 2900 4750 3200
 Wire Wire Line
 	4500 2800 4750 2800
 Wire Wire Line
@@ -451,4 +436,6 @@ Wire Wire Line
 	6100 2850 6100 3050
 Wire Wire Line
 	5600 2850 5700 2850
+Wire Wire Line
+	4750 2900 4750 3750
 $EndSCHEMATC
