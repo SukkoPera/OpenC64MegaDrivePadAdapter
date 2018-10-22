@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# OpenC64MegaDrivePadAdapter-rescue_BC547
+# BC547
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_BC547 Q 0 0 Y Y 1 F N
+DEF BC547 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_BC547" 200 0 50 H V L CNN
+F1 "BC547" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -24,11 +24,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_CONN_01X01
+# CONN_01X01
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_01X01 J 0 40 Y N 1 F N
+DEF CONN_01X01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_01X01" 100 0 50 V V C CNN
+F1 "CONN_01X01" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -44,11 +44,11 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_CONN_01X02
+# CONN_01X02
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_01X02 J 0 40 Y N 1 F N
+DEF CONN_01X02 J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_01X02" 100 0 50 V V C CNN
+F1 "CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -66,11 +66,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_CONN_01X03
+# CONN_01X03
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_01X03 J 0 40 Y N 1 F N
+DEF CONN_01X03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_01X03" 100 0 50 V V C CNN
+F1 "CONN_01X03" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -90,11 +90,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_CONN_02X03
+# CONN_02X03
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_02X03 J 0 1 Y N 1 F N
+DEF CONN_02X03 J 0 1 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_02X03" 0 -200 50 H V C CNN
+F1 "CONN_02X03" 0 -200 50 H V C CNN
 F2 "" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
@@ -121,11 +121,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_D
+# D
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -144,11 +144,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_DB9_FEMALE
+# DB9_FEMALE
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_DB9_FEMALE J 0 40 Y N 1 F N
+DEF DB9_FEMALE J 0 40 Y N 1 F N
 F0 "J" 0 550 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_DB9_FEMALE" 0 -575 50 H V C CNN
+F1 "DB9_FEMALE" 0 -575 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -186,11 +186,11 @@ X 9 9 -300 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_DB9_MALE
+# DB9_MALE
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_DB9_MALE J 0 40 Y N 1 F N
+DEF DB9_MALE J 0 40 Y N 1 F N
 F0 "J" 0 550 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_DB9_MALE" 0 -575 50 H V C CNN
+F1 "DB9_MALE" 0 -575 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X 9 9 -300 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_R
+# R
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -243,34 +243,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_PWR_FLAG
-#
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
