@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Open Sega Mega Drive Joypad to C64 Adapter"
-Date "2018-10-22"
+Date "2018-10-28"
 Rev "3"
 Comp "SukkoPera (Thanks Etemenanki)"
 Comment1 "http://wiki.icomp.de/wiki/DB9-Joystick"
@@ -91,7 +91,7 @@ U 1 1 59C7F5F4
 P 4150 4050
 F 0 "J10" H 4150 4600 50  0000 C CNN
 F 1 "DB9_F_TO_C64" H 4150 3475 50  0000 C CNN
-F 2 "OpenC64MegaDrivePadAdapter:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 4150 4050 50  0001 C CNN
+F 2 "w_conn_d-sub:DB_9F" H 4150 4050 50  0001 C CNN
 F 3 "" H 4150 4050 50  0001 C CNN
 	1    4150 4050
 	-1   0    0    1   
@@ -102,7 +102,7 @@ U 1 1 59C7F669
 P 8000 4050
 F 0 "J20" H 8000 3500 50  0000 C CNN
 F 1 "DB9_M_TO_PAD" H 8000 4650 50  0000 C CNN
-F 2 "OpenC64MegaDrivePadAdapter:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 8000 4050 50  0001 C CNN
+F 2 "w_conn_d-sub:DB_9M" H 8000 4050 50  0001 C CNN
 F 3 "" H 8000 4050 50  0001 C CNN
 	1    8000 4050
 	1    0    0    -1  
