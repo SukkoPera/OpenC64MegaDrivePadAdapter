@@ -1,6 +1,4 @@
 (fp_lib_table
-  (lib (name w_conn_d-sub)(type KiCad)(uri /home/sukko/Documents/kicad/libs-walter/modules/w_conn_d-sub.pretty)(options "")(descr ""))
-  (lib (name w_pth_diodes)(type KiCad)(uri /home/sukko/Documents/kicad/libs-walter/modules/w_pth_diodes.pretty)(options "")(descr ""))
-  (lib (name w_smd_diode)(type KiCad)(uri /home/sukko/Documents/kicad/libs-walter/modules/w_smd_diode.pretty)(options "")(descr ""))
   (lib (name OpenC64MegaDrivePadAdapter)(type KiCad)(uri "$(KIPRJMOD)/OpenC64MegaDrivePadAdapter.pretty")(options "")(descr ""))
+  (lib (name w_conn_d-sub)(type KiCad)(uri ${WFOOTS}/w_conn_d-sub.pretty)(options "")(descr ""))
 )
