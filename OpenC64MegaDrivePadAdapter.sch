@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Open Sega Mega Drive Joypad to C64 Adapter"
+Title "OpenC64MegaDrivePadAdapter"
 Date "2018-10-28"
 Rev "3"
 Comp "SukkoPera (Thanks Etemenanki)"
 Comment1 "http://wiki.icomp.de/wiki/DB9-Joystick"
 Comment2 "https://www.scribd.com/document/8945979/Commodore-World-Issue-05"
 Comment3 "Based on an article published on Computer World #5"
-Comment4 ""
+Comment4 "Licensed under CERN OHL v.1.2"
 $EndDescr
 $Comp
 L OpenC64MegaDrivePadAdapter-rescue:D D5
