@@ -1,158 +1,52 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# OpenC64MegaDrivePadAdapter-rescue_BC547
+# Connector_Conn_01x01_Male
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_BC547 Q 0 0 Y Y 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_BC547" 200 0 50 H V L CNN
-F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-$FPLIST
- TO-92*
-$ENDFPLIST
-DRAW
-C 50 0 111 0 1 10 N
-P 2 0 1 0 0 0 25 0 N
-P 2 0 1 0 25 25 100 100 N
-P 3 0 1 0 25 -25 100 -100 100 -100 N
-P 3 0 1 20 25 75 25 -75 25 -75 N
-P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
-X C 1 100 200 100 D 50 50 1 1 P
-X B 2 -200 0 200 R 50 50 1 1 I
-X E 3 100 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenC64MegaDrivePadAdapter-rescue_CONN_01X01
-#
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_01X01 J 0 40 Y N 1 F N
+DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_01X01" 100 0 50 V V C CNN
+F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Connector*:*
 $ENDFPLIST
 DRAW
-S -50 5 10 -5 0 1 0 N
-S -50 50 50 -50 0 1 0 N
-X P1 1 -200 0 150 R 50 50 1 1 P
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_CONN_01X02
+# Connector_Conn_01x02_Male
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_01X02 J 0 40 Y N 1 F N
-F0 "J" 0 150 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_01X02" 100 0 50 V V C CNN
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 100 50 -100 0 1 0 N
-X P1 1 -200 50 150 R 50 50 1 1 P
-X P2 2 -200 -50 150 R 50 50 1 1 P
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_CONN_01X03
+# Connector_DB9_Female_MountingHoles
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_01X03 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_01X03" 100 0 50 V V C CNN
+DEF Connector_DB9_Female_MountingHoles J 0 40 Y N 1 F N
+F0 "J" 0 650 50 H V C CNN
+F1 "Connector_DB9_Female_MountingHoles" 0 575 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X*
- Pin_Header_Angled_1X*
- Socket_Strip_Straight_1X*
- Socket_Strip_Angled_1X*
-$ENDFPLIST
-DRAW
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 150 50 -150 0 1 0 N
-X P1 1 -200 100 150 R 50 50 1 1 P
-X P2 2 -200 0 150 R 50 50 1 1 P
-X P3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenC64MegaDrivePadAdapter-rescue_CONN_02X03
-#
-DEF OpenC64MegaDrivePadAdapter-rescue_CONN_02X03 J 0 1 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_CONN_02X03" 0 -200 50 H V C CNN
-F2 "" 0 -1200 50 H I C CNN
-F3 "" 0 -1200 50 H I C CNN
-$FPLIST
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
- IDC_Header_Straight_*
-$ENDFPLIST
-DRAW
-S -100 -95 -50 -105 0 1 0 N
-S -100 5 -50 -5 0 1 0 N
-S -100 105 -50 95 0 1 0 N
-S -100 150 100 -150 0 1 0 N
-S 50 -95 100 -105 0 1 0 N
-S 50 5 100 -5 0 1 0 N
-S 50 105 100 95 0 1 0 N
-X P1 1 -250 100 150 R 50 50 1 1 P
-X P2 2 250 100 150 L 50 50 1 1 P
-X P3 3 -250 0 150 R 50 50 1 1 P
-X P4 4 250 0 150 L 50 50 1 1 P
-X P5 5 -250 -100 150 R 50 50 1 1 P
-X P6 6 250 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenC64MegaDrivePadAdapter-rescue_D
-#
-DEF OpenC64MegaDrivePadAdapter-rescue_D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# OpenC64MegaDrivePadAdapter-rescue_DB9_FEMALE
-#
-DEF OpenC64MegaDrivePadAdapter-rescue_DB9_FEMALE J 0 40 Y N 1 F N
-F0 "J" 0 550 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_DB9_FEMALE" 0 -575 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DB*F*
+ DSUB*Female*
 $ENDFPLIST
 DRAW
 C -70 -400 30 0 1 0 N
@@ -174,6 +68,7 @@ P 2 0 1 0 -150 200 -100 200 N
 P 2 0 1 0 -150 300 20 300 N
 P 2 0 1 0 -150 400 -100 400 N
 P 5 0 1 10 -150 525 -150 -525 150 -375 150 375 -150 525 f
+X PAD 0 0 -600 150 U 50 50 1 1 P
 X 1 1 -300 400 150 R 50 50 1 1 P
 X 2 2 -300 200 150 R 50 50 1 1 P
 X 3 3 -300 0 150 R 50 50 1 1 P
@@ -186,15 +81,15 @@ X 9 9 -300 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_DB9_MALE
+# Connector_DB9_Male_MountingHoles
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_DB9_MALE J 0 40 Y N 1 F N
-F0 "J" 0 550 50 H V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_DB9_MALE" 0 -575 50 H V C CNN
+DEF Connector_DB9_Male_MountingHoles J 0 40 Y N 1 F N
+F0 "J" 0 650 50 H V C CNN
+F1 "Connector_DB9_Male_MountingHoles" 0 575 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- DB*M*
+ DSUB*Male*
 $ENDFPLIST
 DRAW
 C -70 -400 30 0 1 0 F
@@ -216,6 +111,7 @@ P 2 0 1 0 -150 200 -100 200 N
 P 2 0 1 0 -150 300 20 300 N
 P 2 0 1 0 -150 400 -100 400 N
 P 5 0 1 10 -150 -525 -150 525 150 375 150 -375 -150 -525 f
+X PAD 0 0 -600 150 U 50 50 1 1 P
 X 1 1 -300 -400 150 R 50 50 1 1 P
 X 2 2 -300 -200 150 R 50 50 1 1 P
 X 3 3 -300 0 150 R 50 50 1 1 P
@@ -228,21 +124,114 @@ X 9 9 -300 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64MegaDrivePadAdapter-rescue_R
+# Connector_Generic_Conn_01x03
 #
-DEF OpenC64MegaDrivePadAdapter-rescue_R R 0 0 N Y 1 F N
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x03_Odd_Even
+#
+DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D
+#
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "OpenC64MegaDrivePadAdapter-rescue_R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
  R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_BJT_BC547
+#
+DEF Transistor_BJT_BC547 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_BJT_BC547" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS BC546 BC548 BC549 BC550 BC337 BC338
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X C 1 100 200 100 D 50 50 1 1 P
+X B 2 -200 0 200 R 50 50 1 1 I
+X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

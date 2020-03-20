@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name OpenC64MegaDrivePadAdapter-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenC64MegaDrivePadAdapter-rescue.lib)(options "")(descr ""))
 )
