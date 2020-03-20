@@ -2,7 +2,7 @@
 
 OpenC64MegaDrivePadAdapter is an Open Hardware adapter that allows the safe connection of a Sega Mega Drive (known as *Genesis* in the US) controller to a Commodore 64 or Amiga computer.
 
-![Board](https://github.com/SukkoPera/OpenC64MegaDrivePadAdapter/raw/master/doc/render-top.png)
+![Board](https://github.com/SukkoPera/OpenC64MegaDrivePadAdapter/raw/master/img/render-top.png)
 
 ### Summary
 Despite being compatible at the physical level (i.e.: they use the same DB-9 connectors), Sega Mega Drive controllers are slightly different from the *Atari-style joysticks* (which the C64 uses) at the electrical level. These differences usually manifest themselves in the fact that certain keyboard keys are not responsive when a Sega Mega Drive pad is connected to a C64 computer, but the CIA chip may also get harmed as a result.
