@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenC64MegaDrivePadAdapter"
-Date "2020-03-20"
-Rev "4"
+Date "2020-05-17"
+Rev "5"
 Comp "SukkoPera (Thanks Etemenanki & Screwbreaker)"
 Comment1 "http://wiki.icomp.de/wiki/DB9-Joystick"
 Comment2 "https://www.scribd.com/document/8945979/Commodore-World-Issue-05"
@@ -74,10 +74,7 @@ F 3 "~" H 10640 6460 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7255 4305 4205 4305
-Wire Wire Line
-	4205 4080 4205 4305
-Connection ~ 4205 4305
+	6270 4080 6270 4305
 Text Label 7255 4705 2    60   ~ 0
 left
 Text Label 7255 4505 2    60   ~ 0
@@ -218,16 +215,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR03
 U 1 1 5E7CA453
-P 4205 3730
-F 0 "#PWR03" H 4205 3580 50  0001 C CNN
-F 1 "+5V" H 4205 3870 50  0000 C CNN
-F 2 "" H 4205 3730 50  0001 C CNN
-F 3 "" H 4205 3730 50  0001 C CNN
-	1    4205 3730
+P 6270 3730
+F 0 "#PWR03" H 6270 3580 50  0001 C CNN
+F 1 "+5V" H 6270 3870 50  0000 C CNN
+F 2 "" H 6270 3730 50  0001 C CNN
+F 3 "" H 6270 3730 50  0001 C CNN
+	1    6270 3730
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4205 3730 4205 3780
+	6270 3730 6270 3780
 Wire Wire Line
 	4205 4805 4205 4305
 Wire Wire Line
@@ -278,7 +275,7 @@ Wire Wire Line
 	7875 2425 7875 2525
 Connection ~ 6830 2725
 Wire Wire Line
-	7575 2725 6830 2725
+	7575 2725 7400 2725
 Wire Wire Line
 	8325 3035 8325 2425
 Wire Wire Line
@@ -288,11 +285,11 @@ Wire Wire Line
 Wire Wire Line
 	8325 3135 8325 3575
 Wire Wire Line
-	8325 3575 6605 3575
+	8325 3575 6730 3575
 Wire Wire Line
 	8595 3135 8325 3135
 Wire Wire Line
-	6605 3575 6605 4405
+	6730 3575 6730 4405
 Wire Wire Line
 	6830 2725 6830 3235
 Wire Wire Line
@@ -359,22 +356,20 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0105
 U 1 1 5E89C8DC
-P 6355 3325
-F 0 "#PWR0105" H 6355 3075 50  0001 C CNN
-F 1 "GND" H 6360 3152 50  0000 C CNN
-F 2 "" H 6355 3325 50  0001 C CNN
-F 3 "" H 6355 3325 50  0001 C CNN
-	1    6355 3325
+P 6355 3270
+F 0 "#PWR0105" H 6355 3020 50  0001 C CNN
+F 1 "GND" H 6360 3097 50  0000 C CNN
+F 2 "" H 6355 3270 50  0001 C CNN
+F 3 "" H 6355 3270 50  0001 C CNN
+	1    6355 3270
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6355 3225 6355 3325
 Text Notes 6460 2660 0    60   ~ 0
-Button 2 is inverted\nONCE, so it will HIGH\nwhen pressed. This is\nsuitable for the C64.
+Button 2 is inverted ONCE, \nso it will be HIGH when\npressed. This is suitable\nfor the C64.
 Wire Notes Line
 	6445 2265 6445 2785
 Text Notes 8025 2380 0    60   ~ 0
-Button 2 is inverted\nTWICE, so it will LOW when\npressed. Essentially, we\nhave buffered the input\nsignal. This is suitable\nfor the Amiga.
+Button 2 is inverted TWICE,\nso it will be LOW when\npressed. Essentially, we\nhave buffered the input\nsignal. This is suitable\nfor the Amiga.
 Wire Notes Line
 	8005 1790 8005 2485
 $Comp
@@ -400,11 +395,11 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6255 3025 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R5
 U 1 1 5E90C2B4
 P 7875 2175
-F 0 "R4" H 7925 2175 50  0000 L CNN
-F 1 "2.2k" V 7875 2100 50  0000 L CNN
+F 0 "R5" H 7925 2175 50  0000 L CNN
+F 1 "1k" V 7870 2125 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7805 2175 50  0001 C CNN
 F 3 "~" H 7875 2175 50  0001 C CNN
 	1    7875 2175
@@ -415,7 +410,7 @@ L Device:R R3
 U 1 1 5E91016F
 P 6355 2475
 F 0 "R3" H 6405 2475 50  0000 L CNN
-F 1 "2.2k" V 6355 2400 50  0000 L CNN
+F 1 "1k" V 6350 2430 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6285 2475 50  0001 C CNN
 F 3 "~" H 6355 2475 50  0001 C CNN
 	1    6355 2475
@@ -426,7 +421,7 @@ L Device:R R1
 U 1 1 5E91598F
 P 5505 3025
 F 0 "R1" V 5595 2975 50  0000 L CNN
-F 1 "2.2k" V 5505 2950 50  0000 L CNN
+F 1 "1k" V 5505 2980 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5435 3025 50  0001 C CNN
 F 3 "~" H 5505 3025 50  0001 C CNN
 	1    5505 3025
@@ -437,21 +432,21 @@ L Device:R R2
 U 1 1 5E91D477
 P 6055 2725
 F 0 "R2" V 6145 2675 50  0000 L CNN
-F 1 "100k" V 6055 2630 50  0000 L CNN
+F 1 "47k" V 6055 2655 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5985 2725 50  0001 C CNN
 F 3 "~" H 6055 2725 50  0001 C CNN
 	1    6055 2725
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R6
 U 1 1 5E91DE9E
-P 4205 3930
-F 0 "R5" H 4255 3930 50  0000 L CNN
-F 1 "10k" V 4205 3855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4135 3930 50  0001 C CNN
-F 3 "~" H 4205 3930 50  0001 C CNN
-	1    4205 3930
+P 6270 3930
+F 0 "R6" H 6320 3930 50  0000 L CNN
+F 1 "10k" V 6270 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6200 3930 50  0001 C CNN
+F 3 "~" H 6270 3930 50  0001 C CNN
+	1    6270 3930
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -521,7 +516,7 @@ F 3 " ~" H 3355 4705 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7255 4405 6605 4405
+	7255 4405 6730 4405
 Wire Wire Line
 	7255 4605 6730 4605
 Wire Wire Line
@@ -621,4 +616,39 @@ F 3 "~" H 8795 3135 50  0001 C CNN
 	1    8795 3135
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x02_Male SW5
+U 1 1 5EBEF7FA
+P 6590 4105
+F 0 "SW5" V 6425 4033 50  0000 C CNN
+F 1 "SW_PUP" V 6516 4033 50  0000 C CNN
+F 2 "OpenC64MegaDrivePadAdapter:PinHeader_1x02_P2.54mm_Vertical" H 6590 4105 50  0001 C CNN
+F 3 "~" H 6590 4105 50  0001 C CNN
+	1    6590 4105
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4205 4305 6270 4305
+Connection ~ 6270 4305
+Wire Wire Line
+	6270 4305 6490 4305
+Wire Wire Line
+	6590 4305 7255 4305
+Wire Wire Line
+	6355 3225 6355 3270
+$Comp
+L Device:R R4
+U 1 1 5EC1CAC6
+P 7250 2725
+F 0 "R4" V 7340 2675 50  0000 L CNN
+F 1 "47k" V 7250 2650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7180 2725 50  0001 C CNN
+F 3 "~" H 7250 2725 50  0001 C CNN
+	1    7250 2725
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7100 2725 6830 2725
+Text Notes 6830 7675 2    60   ~ 0
+Other possible resistor values:\n- 1k -> 4.7k\n- 47k -> 220k\n(IIRC...)
 $EndSCHEMATC
