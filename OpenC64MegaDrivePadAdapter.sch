@@ -650,5 +650,5 @@ $EndComp
 Wire Wire Line
 	7100 2725 6830 2725
 Text Notes 6830 7675 2    60   ~ 0
-Other possible resistor values:\n- 1k -> 4.7k\n- 47k -> 220k\n(IIRC...)
+Other possible resistor values:\n- 1k -> 4.7k\n- 47k -> 100k\n- 4.7k is OK for R6 too\n(Tested on A500 only)
 $EndSCHEMATC
