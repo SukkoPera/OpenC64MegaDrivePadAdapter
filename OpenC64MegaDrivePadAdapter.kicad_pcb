@@ -1192,7 +1192,7 @@
   (gr_arc (start 173.101 107.696) (end 173.355 107.696) (angle -90) (layer F.SilkS) (width 0.2) (tstamp 5EDFB5B3))
   (gr_line (start 173.609 112.776) (end 179.578 112.776) (layer F.SilkS) (width 0.2))
   (gr_line (start 173.355 107.696) (end 173.355 112.522) (layer F.SilkS) (width 0.2))
-  (gr_text 3BTNS (at 176.662 111.887) (layer F.SilkS) (tstamp 5EBEDECE)
+  (gr_text SEGA (at 176.662 111.887) (layer F.SilkS) (tstamp 5EBEDECE)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Licensed under\nCERN OHL v.1.2" (at 174.400795 101.5355) (layer B.SilkS)
